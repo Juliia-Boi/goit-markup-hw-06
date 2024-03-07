@@ -159,6 +159,7 @@ address {
     border: none;
     min-width: 169px;
     height: 56px;
+    display: block;
 }
 
 .title-btn:hover,
@@ -305,6 +306,7 @@ padding: 120px 0 120px 0;
 .portfolio-subtitle-style {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-subtitle {
