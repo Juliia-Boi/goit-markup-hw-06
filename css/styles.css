@@ -133,7 +133,7 @@ address {
 }
 
 .title-wrap{
-    padding: 188px 472px;
+    padding: 188px 0;
 }
 
 .title-text {
@@ -144,12 +144,18 @@ address {
     text-align: center;
     color: #fff;
     margin-bottom: 48px;
-    width: 496px;
+    max-width: 496px
 }
 
 .title-btn-style{
-    display: flex;
+    display: block;
+    min-width: 169px;
     align-items: center;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
 }
 .title-btn {
     font-family: "Roboto", sans-serif;
@@ -247,6 +253,7 @@ address {
 .team-item {
     background: #fff;
     width: calc((100% - 4 * 24px) / 3);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-icon {}
@@ -263,6 +270,7 @@ padding-bottom: 32px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-text {
@@ -278,8 +286,7 @@ padding-bottom: 32px;
 /* Our Portfolio */
 
 .portfolio {
-    padding-top: 125px;
-    padding-bottom: 115px;
+padding: 120px 0 120px 0;
 }
 
 .portfolio-title {
@@ -290,7 +297,7 @@ padding-bottom: 32px;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 .portfolio-list {
@@ -301,6 +308,8 @@ padding-bottom: 32px;
 
 .portfolio-item {
     width: calc((100% - 24 * 2) / 3);
+    border: solid #e7e9fc;
+    padding: 32px 16px;
 }
 
 .portfolio-icon {}
@@ -334,9 +343,12 @@ padding-bottom: 32px;
 }
 
 .footer-style {
-    padding-top: 100px;
-    padding-left: 156px;
-    padding-bottom: 100px;
+padding: 100px 0;
+}
+
+.footer-link-style {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-link {
@@ -356,6 +368,10 @@ padding-bottom: 32px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd
+}
+
+.footer-text-style {
+    max-width: 264px
 }
 
 .footer-text {
