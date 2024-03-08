@@ -141,8 +141,9 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    margin-bottom: 48px;
     max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .title-btn {
@@ -160,6 +161,7 @@ address {
     min-width: 169px;
     height: 56px;
     display: block;
+    margin: 0 auto;
 }
 
 .title-btn:hover,
@@ -373,6 +375,5 @@ padding: 120px 0 120px 0;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     width: 364px;
-    margin-top: 16px;
     max-width: 264px
 }
