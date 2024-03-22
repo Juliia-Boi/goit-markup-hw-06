@@ -677,7 +677,7 @@ margin-right: 120px;
 
 .modal-name {
     display: block;
-    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .name-box-modal {
@@ -696,7 +696,7 @@ margin-right: 120px;
     height: 40px;
     background-color: transparent;
     outline: transparent;
-    margin-top: 8px;
+    margin-top: 4px;
     display: block;
     position: relative;
     padding: 11px 38px;
@@ -736,6 +736,7 @@ margin-right: 120px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
+    margin-top: 4px;
 }
 
 .modal-text::placeholder {
